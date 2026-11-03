@@ -7,7 +7,9 @@ from player import jogador
 
 def main():
     mov_inimigo()
+    fim()
     Gerar_mapa()
+    colisao_tiros()
     mov_jogador()
 
 if __name__ == '__main__':
