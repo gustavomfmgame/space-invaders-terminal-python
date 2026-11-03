@@ -16,11 +16,6 @@ for i in range(2, 7, 2):
 def mov_inimigo():
     coordenadas = [(i.x, i.y) for i in inimigos if i.vivo]
 
-    #finaliza o jogo caso o jogador seja atingido ou não haja mais inimigos
-    if ((tiros_inimigos.x, tiros_inimigos.y) == (jogador.x, jogador.y)) or len(coordenadas) == 0:
-        jogador.vivo = False
-        return
-
     #atribui as coordenadas de um inimigo aleatório às coordenadas iniciais do disparo
     if tiros_inimigos.vivo == False:
         (tiros_inimigos.x, tiros_inimigos.y) = random.choice(coordenadas)
