@@ -9,4 +9,4 @@ Uma versão simples do clássico Space Invaders feita em Python para rodar diret
 
   Feito visando treinar POO e lógica de programação.
 
-  [<img width="678" height="500" alt="Image" src="https://github.com/user-attachments/assets/74a6edfe-bebe-4dc2-8896-5f05b35ed3e1" />](https://github.com/user-attachments/assets/8113e8e2-c228-4d5f-a122-2f460f804fc2)
+[  [<img width="678" height="500" alt="Image" src="https://github.com/user-attachments/assets/74a6edfe-bebe-4dc2-8896-5f05b35ed3e1" />](https://github.com/user-attachments/assets/8113e8e2-c228-4d5f-a122-2f460f804fc2)](https://github.com/user-attachments/assets/23013a9d-8be6-486e-89c0-0195239cf665)
