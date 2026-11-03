@@ -78,8 +78,10 @@ def mov_inimigo():
 
     #elimina os inimigos caso sejam atingidos 
     for i in inimigos:
-        if (tiro_jogador.x, tiro_jogador.y) == (i.x, i.y):
+        if (tiro_jogador.x, tiro_jogador.y) == (i.x, i.y) and i.vivo == True:
             i.vivo = False 
+            tiro_jogador.vivo = False
+            tiro_jogador.x = -2
 
     #movimento dos inimigos
     for i in inimigos:
