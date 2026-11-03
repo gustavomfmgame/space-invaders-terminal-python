@@ -44,7 +44,7 @@ def mov_inimigo():
     #movimento dos inimigos
     for i in inimigos:
         i.delay+=1
-        if i.delay >= 15:
+        if i.delay >= 10:
             
             if (34, i.y) in coordenadas and i.vivo:
                 for j in inimigos:
