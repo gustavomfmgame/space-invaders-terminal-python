@@ -1,4 +1,3 @@
-import os
 import time
 import random
 import msvcrt
@@ -143,7 +142,7 @@ def main():
 
 if __name__ == '__main__':
     while True:
-        os.system('cls')
+        print("\033[H", end="")
         main()
         time.sleep(0.05)
         if jogador.vivo == False:
