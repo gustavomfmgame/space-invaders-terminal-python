@@ -1,4 +1,3 @@
-import os
 import time
 from player import mov_jogador
 from gerar_mapa import Gerar_mapa
@@ -14,7 +13,7 @@ def main():
 
 if __name__ == '__main__':
     while True:
-        os.system('cls')
+        print("\033[H", end="")
         main()
         time.sleep(0.05)
         if jogador.vivo == False:
